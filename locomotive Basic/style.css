@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+ 
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10, 6, 39);
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(149, 143, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 img{
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
